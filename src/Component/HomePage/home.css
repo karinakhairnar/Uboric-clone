@@ -1,8 +1,13 @@
+.main>img{
+  width: 100%;
+  height: 550px;
+}
+
 .first{
     display: flex;
     gap: 60px;
     justify-content: center;
-    margin-top: 13px;
+    margin-top: 15px;
   }
   .sec{
     display:flex;
@@ -25,7 +30,7 @@
   }
   .first>img{
     height:45px;
-    margin-top:20px
+    margin-top:20px;
   }
   .same{
     display:flex;
@@ -38,10 +43,20 @@
 .frth{
     display:flex;
     justify-Content:space-around;
-    margin-Top:35px 
+    margin-Top:45px 
 }
 .frth>img{
     height: 420px;
-   
     border-radius: 8px;
+    box-shadow: #030d9b 0 0px 15px;
+}
+.five{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    margin-top: 65px;
+}
+.five>img{
+    height:45px;
+    margin-top:20px;
 }
