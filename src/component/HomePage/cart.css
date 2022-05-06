@@ -1,0 +1,75 @@
+a{
+    text-decoration: none;
+    color: rgb(0, 86, 86);
+}
+*{
+    padding:8px;
+}
+.cart{
+    width: 70%;
+margin: auto;
+font-family: Georgia, serif;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.intro{
+  text-align:  center;
+}
+.fetchdata{
+    display: flex;
+}
+.left{
+  width: 700px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.right{
+    width: 300px;   
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.intro{
+    color: rgb(0, 86, 86);
+}
+.data{
+    display: flex;
+    gap: 40px;
+}
+.offer{
+    background-color: rgb(9, 74, 125);
+    border: none;
+    padding: 7px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+}
+button,.submitBtn{
+    background-color: rgb(255, 187, 0);
+    font-weight: bold;
+    padding: 7px;
+}
+p{
+    font-style: italic;
+    color: gray;
+}
+form{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    line-height: 50px;
+}
+.submitBtn{
+    width: 20%;
+    margin-left: 300px;
+}
+.seller{
+    width: 60%;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#long{
+    width: 550px;
+    height: 50px;
+}
+#small{
+    width: 250px;
+}
