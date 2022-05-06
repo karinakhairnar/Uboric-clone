@@ -1,24 +1,25 @@
 import React from 'react'
-import './home.css'
+import "./home.css"
 
 export const Home = () => {
   return (
     <div>
-      <div className='main'>
+       <div className='main' >
         <img src="https://www.uboric.com/wp-content/uploads/2021/11/grocery.jpg" alt="" />
         <img src="https://www.uboric.com/wp-content/uploads/2021/11/health-care.jpg" alt="" />
         <img src="https://www.uboric.com/wp-content/uploads/2021/11/clothing.jpg" alt="" />
       </div>
+
       <div className='first'>
-      <img src="https://www.uboric.com/wp-content/uploads/elementor/thumbs/kitchen-ware-heading-pkx8tvxfmbbsdlrzrk3iwlbxruc7cn5sq339xkx9cg.png"/>
+      <img src="https://www.uboric.com/wp-content/uploads/elementor/thumbs/kitchen-ware-heading-pkx8tvxfmbbsdlrzrk3iwlbxruc7cn5sq339xkx9cg.png" alt=''/>
       <h1 >KITCHEN WARE</h1>
-      <img src="https://www.uboric.com/wp-content/uploads/elementor/thumbs/kitchen-ware-heading-pkx8tvxfmbbsdlrzrk3iwlbxruc7cn5sq339xkx9cg.png"/>
+      <img src="https://www.uboric.com/wp-content/uploads/elementor/thumbs/kitchen-ware-heading-pkx8tvxfmbbsdlrzrk3iwlbxruc7cn5sq339xkx9cg.png" alt=''/>
       </div>
 
       <div className='sec'>
-      <img src="https://www.uboric.com/wp-content/uploads/2020/12/kithchen-tools-768x602.jpg" />
-      <img src="https://www.uboric.com/wp-content/uploads/2020/12/Air-Tight-Containers-768x602.jpg" />
-      <img src="https://www.uboric.com/wp-content/uploads/2020/12/Gas-Lighter-1024x1024.jpg" />
+      <img src="https://www.uboric.com/wp-content/uploads/2020/12/kithchen-tools-768x602.jpg" alt=''/>
+      <img src="https://www.uboric.com/wp-content/uploads/2020/12/Air-Tight-Containers-768x602.jpg" alt=''/>
+      <img src="https://www.uboric.com/wp-content/uploads/2020/12/Gas-Lighter-1024x1024.jpg" alt=''/>
     </div>
 
     <div className='thrd'>
@@ -36,7 +37,7 @@ export const Home = () => {
       <img src="https://www.uboric.com/wp-content/uploads/2021/12/banner2-1.jpg" alt="" />
     </div>
 
-    <div style={{
+    <div className='sng' style={{
       marginTop:"25px"
     }}>
       <img src="https://www.uboric.com/wp-content/uploads/2021/02/Headphone.jpg" alt="" />
@@ -75,7 +76,7 @@ export const Home = () => {
         <img src="https://www.uboric.com/wp-content/uploads/elementor/thumbs/shoes-icon-left-e1605175515419-pkxdaq391ri2zk5gl2xdk07d1dl8g5oc65qa62g4nk.png" alt="" />
     </div>
 
-    <div style={{
+    <div className='sng' style={{
       marginTop:"25px"
     }}>
         <img src="https://www.uboric.com/wp-content/uploads/elementor/thumbs/men-fashion-pf2rgkwglk7z47uh031vpxcshl64adc389ivxapmss.jpg" alt="" />
@@ -100,8 +101,12 @@ export const Home = () => {
     <div style={{marginTop:"30px"}}>
       <h1>Benefits of shopping on Uboric :</h1>
     </div>
-    <div>
-
+    <div className='text'>
+      <h3> ✔ User-Friendly</h3>
+      <h3> ✔ Safe & Secure Shopping </h3>
+      <h3> ✔ Check Out Closely</h3>
+      <h3> ✔ Multiple Payment Options:</h3>
+      <h3> ✔ Order History:</h3>
     </div>
     </div>
   )
